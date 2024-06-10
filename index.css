@@ -1,0 +1,98 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border: 2px solid black;
+}
+
+.logo-container {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  height: 150px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.nav-items {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-items > ul {
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+  list-style-type: none;
+}
+
+.search {
+  padding: 10px;
+}
+.res-card {
+  padding: 10px;
+  background-color: #f0f0f0;
+  width: 20%;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.shimmer-card {
+  height: 150px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  width: 20%;
+  margin: 10px;
+}
+
+.res-containers {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.shimmer-container {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.res-food-logo {
+  height: 150px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 2px solid black;
+}
+.login {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.input-search {
+  width: 50%;
+  height: 50px;
+}
+
+.button-search {
+  margin-left: 10px;
+  height: 50px;
+  cursor: pointer;
+  padding: 10px;
+}
